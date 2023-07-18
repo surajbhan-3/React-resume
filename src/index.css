@@ -1,0 +1,186 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+  h1{
+    font-family: 'Merriweather', serif;
+  }
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
+
+.main-container{
+
+  /* border: 1px solid black; */
+  width: 80vw;
+  margin: auto;
+  margin-top: 10px;
+
+
+}
+
+.header-div{
+
+     /* border: 1px solid black; */
+     height: 40vh;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     background-color: #ceb61e;
+
+
+
+
+}
+.header-div>div{
+
+      width: 25vw;
+      /* border: 1px solid red; */
+      height: 40vh;
+      padding:0px 20px 0px 20px;
+
+
+
+
+}
+
+.image-div{
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+
+.about-div{
+
+  
+  /* border: 1px solid black; */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+
+
+}
+.about-div>div{
+
+  width: 38vw;
+  /* border: 1px solid red; */
+  height: auto;
+}
+
+.progress-div{
+  display: flex;
+   justify-content: space-between;
+}
+.whoami button{
+   margin: 12px;
+   border-radius: 50%;
+   padding: 10px;
+   border: 1px solid black;
+}
+.whoami button:hover{
+  background-color: #ceb61e;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+
+.edu-div{
+  /* border: 1px solid blue; */
+
+}
+.edu-div>div{
+  /* border: 1px solid black; */
+}
+.edu-1,.exp-1{
+  margin: 10px;
+}
+.edu-2,.exp-2{
+  margin: 10px;
+}
+.edu-3,.exp-3{
+  margin: 10px;
+
+}
+
+
+.mid-div{
+
+  background-color:  #ceb61e;
+  /* border: 1px solid black; */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+
+
+}
+.mid-div>div{
+
+  width: 40vw;
+  /* border: 1px solid red; */
+  height: auto;
+}
+hr{
+  color: black;
+  background-color: black;
+}
+
+.bottom-div{
+  /* border: 1px solid black; */
+  /* background-color: #ceb61e; */
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.bottom-div >button{
+  margin: 12px;
+  border-radius: 50%;
+  padding: 19px;
+  border: 1px solid black;
+  color: #75670b;
+  font-weight: bold;
+  background-color:whitesmoke;
+
+
+}
+.bottom-div>button:hover{
+  background-color: #ceb61e;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.footer{
+  margin-top: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer button{
+
+      font-size: 18px;
+      padding: 20px 30px 20px 30px;
+      background-color: #ceb61e;
+      border: 0px;
+      
+     
+}
+
+.credit{
+  border-top: 2px solid black;
+  margin-top: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
